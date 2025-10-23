@@ -1,0 +1,204 @@
+{
+  "DNA-573_Train": {
+    "model_name": "DNA-573_Train_robust_edgepred",
+    "model_type": "Robust GNN with Edge Predictor",
+    "training_info": {
+      "original_positive": 14479,
+      "original_negative": 145404,
+      "original_ratio": 0.09055997197951002,
+      "augmented_positive": 43238,
+      "augmented_negative": 145287,
+      "augmented_ratio": 0.22934889271979844,
+      "target_ratio": 0.9,
+      "cv_avg_f1": 0.47931247281962214,
+      "cv_avg_auc": 0.48512434598684884,
+      "diffusion_time": 83.0962164402008,
+      "augment_time": 498.69352173805237,
+      "gnn_time": 1192.4328145980835,
+      "total_time": 1824.4384136199951
+    },
+    "edge_predictor_config": {
+      "predictor_threshold": 0.8,
+      "sim_threshold": 0.7,
+      "dist_threshold": 1.2,
+      "top_k": 5,
+      "connect_generated_nodes": true,
+      "use_topk_guarantee": true
+    },
+    "test_results": {
+      "DNA-129_Test": {
+        "f1": 0.45592599057427124,
+        "accuracy": 0.9169132347061175,
+        "balanced_accuracy": 0.7605752632378253,
+        "precision": 0.37431928919461166,
+        "recall": 0.5830357142857143,
+        "specificity": 0.9381148121899362,
+        "sensitivity": 0.5830357142857143,
+        "mcc": 0.4251721092858192,
+        "auc_pr": 0.4307363892272734,
+        "auc_roc": 0.884683076845196,
+        "confusion_matrix": {
+          "tp": 1306,
+          "tn": 33092,
+          "fp": 2183,
+          "fn": 934
+        },
+        "best_threshold_f1": 0.3,
+        "best_threshold_balanced_acc": 0.05,
+        "total_samples": 37515,
+        "positive_samples": 2240,
+        "negative_samples": 35275,
+        "positive_ratio": 0.05970944955351193
+      },
+      "DNA-181_Test": {
+        "f1": 0.3026231017027151,
+        "accuracy": 0.8993196736559569,
+        "balanced_accuracy": 0.7145064472752886,
+        "precision": 0.2147054982369074,
+        "recall": 0.5124688279301746,
+        "specificity": 0.9165440666204026,
+        "sensitivity": 0.5124688279301746,
+        "mcc": 0.2866808175603475,
+        "auc_pr": 0.2510009921587846,
+        "auc_roc": 0.8421958765473547,
+        "confusion_matrix": {
+          "tp": 1644,
+          "tn": 66037,
+          "fp": 6013,
+          "fn": 1564
+        },
+        "best_threshold_f1": 0.2,
+        "best_threshold_balanced_acc": 0.05,
+        "total_samples": 75258,
+        "positive_samples": 3208,
+        "negative_samples": 72050,
+        "positive_ratio": 0.04262669749395413
+      },
+      "DNA-46_Test": {
+        "f1": 0.5332764505119454,
+        "accuracy": 0.8994115483633689,
+        "balanced_accuracy": 0.785795653858198,
+        "precision": 0.45322697606961565,
+        "recall": 0.6476683937823834,
+        "specificity": 0.9239229139340127,
+        "sensitivity": 0.6476683937823834,
+        "mcc": 0.4884641089655832,
+        "auc_pr": 0.539144112231029,
+        "auc_roc": 0.8671029154291849,
+        "confusion_matrix": {
+          "tp": 625,
+          "tn": 9157,
+          "fp": 754,
+          "fn": 340
+        },
+        "best_threshold_f1": 0.55,
+        "best_threshold_balanced_acc": 0.05,
+        "total_samples": 10876,
+        "positive_samples": 965,
+        "negative_samples": 9911,
+        "positive_ratio": 0.08872747333578522
+      }
+    }
+  },
+  "DNA-646_Train": {
+    "model_name": "DNA-646_Train_robust_edgepred",
+    "model_type": "Robust GNN with Edge Predictor",
+    "training_info": {
+      "original_positive": 15636,
+      "original_negative": 298503,
+      "original_ratio": 0.049774144566577215,
+      "augmented_positive": 46849,
+      "augmented_negative": 290704,
+      "augmented_ratio": 0.1387900566725818,
+      "target_ratio": 0.9,
+      "cv_avg_f1": 0.46935491340928787,
+      "cv_avg_auc": 0.48841848152917994,
+      "diffusion_time": 88.78333687782288,
+      "augment_time": 579.3929681777954,
+      "gnn_time": 1387.6332261562347,
+      "total_time": 2111.8329820632935
+    },
+    "edge_predictor_config": {
+      "predictor_threshold": 0.8,
+      "sim_threshold": 0.7,
+      "dist_threshold": 1.2,
+      "top_k": 5,
+      "connect_generated_nodes": true,
+      "use_topk_guarantee": true
+    },
+    "test_results": {
+      "DNA-129_Test": {
+        "f1": 0.4571540113214913,
+        "accuracy": 0.9258696521391443,
+        "balanced_accuracy": 0.737117450896021,
+        "precision": 0.40617412417620535,
+        "recall": 0.5227678571428571,
+        "specificity": 0.951467044649185,
+        "sensitivity": 0.5227678571428571,
+        "mcc": 0.42188096034197503,
+        "auc_pr": 0.42667314933717154,
+        "auc_roc": 0.862647387870811,
+        "confusion_matrix": {
+          "tp": 1171,
+          "tn": 33563,
+          "fp": 1712,
+          "fn": 1069
+        },
+        "best_threshold_f1": 0.05,
+        "best_threshold_balanced_acc": 0.05,
+        "total_samples": 37515,
+        "positive_samples": 2240,
+        "negative_samples": 35275,
+        "positive_ratio": 0.05970944955351193
+      },
+      "DNA-181_Test": {
+        "f1": 0.30647291941875826,
+        "accuracy": 0.9162879693853145,
+        "balanced_accuracy": 0.6858403263181394,
+        "precision": 0.23689584751531653,
+        "recall": 0.4339152119700748,
+        "specificity": 0.937765440666204,
+        "sensitivity": 0.4339152119700748,
+        "mcc": 0.27985935350524493,
+        "auc_pr": 0.2555688949504241,
+        "auc_roc": 0.8284657565835586,
+        "confusion_matrix": {
+          "tp": 1392,
+          "tn": 67566,
+          "fp": 4484,
+          "fn": 1816
+        },
+        "best_threshold_f1": 0.1,
+        "best_threshold_balanced_acc": 0.05,
+        "total_samples": 75258,
+        "positive_samples": 3208,
+        "negative_samples": 72050,
+        "positive_ratio": 0.04262669749395413
+      },
+      "DNA-46_Test": {
+        "f1": 0.4910358565737052,
+        "accuracy": 0.9060316292754689,
+        "balanced_accuracy": 0.7276934666720339,
+        "precision": 0.4726749760306807,
+        "recall": 0.510880829015544,
+        "specificity": 0.9445061043285239,
+        "sensitivity": 0.510880829015544,
+        "mcc": 0.43976208796221766,
+        "auc_pr": 0.44370892758383745,
+        "auc_roc": 0.8629384945705901,
+        "confusion_matrix": {
+          "tp": 493,
+          "tn": 9361,
+          "fp": 550,
+          "fn": 472
+        },
+        "best_threshold_f1": 0.05,
+        "best_threshold_balanced_acc": 0.05,
+        "total_samples": 10876,
+        "positive_samples": 965,
+        "negative_samples": 9911,
+        "positive_ratio": 0.08872747333578522
+      }
+    }
+  }
+}

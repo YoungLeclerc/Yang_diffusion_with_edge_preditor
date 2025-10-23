@@ -1,0 +1,12 @@
+{
+  "num_proteins": 19488,
+  "feature_dim": 1280,
+  "num_train": 1487155,
+  "num_val": 185894,
+  "num_test": 185895,
+  "num_positive_train": 743644,
+  "num_negative_train": 743511,
+  "negative_sampling_strategy": "uniform",
+  "data_source": "STRING v12.0 (Homo sapiens)",
+  "features": "ESM2 (facebook/esm2_t33_650M_UR50D)"
+}

@@ -1,0 +1,47 @@
+{
+  "pipeline": "ULTIMATE",
+  "model_name": "DNA-573_Train",
+  "training_info": {
+    "original_positive": 14479,
+    "original_negative": 145404,
+    "original_ratio": 0.09055997197951002,
+    "augmented_positive": 79815,
+    "augmented_negative": 145404,
+    "augmented_ratio": 0.35438839529524596,
+    "target_ratio": 0.5,
+    "cv_avg_f1": 0.9596221798713436,
+    "cv_avg_auc": 0.9909754591223797,
+    "augmentation_stats": {
+      "total_proteins": 573,
+      "total_generated": 65336,
+      "avg_quality": 0.027938063657902714,
+      "avg_diversity": 0.9994750028992323,
+      "total_edges": 1772541,
+      "success_rate": 1.0
+    },
+    "total_time": 15065.78883099556
+  },
+  "test_results": {
+    "DNA-129_Test": {
+      "f1": 0.4611425630468348,
+      "mcc": 0.43814958646220337,
+      "accuracy": 0.9441823270691724,
+      "auc_pr": 0.4698183401902105,
+      "auc_roc": 0.8922577958894401
+    },
+    "DNA-181_Test": {
+      "f1": 0.3418742160903064,
+      "mcc": 0.3210122460017405,
+      "accuracy": 0.9511945573892476,
+      "auc_pr": 0.30989734178675576,
+      "auc_roc": 0.8565209850114477
+    },
+    "DNA-46_Test": {
+      "f1": 0.7220805711371749,
+      "mcc": 0.6946552180542972,
+      "accuracy": 0.9498896653181317,
+      "auc_pr": 0.6899690160070423,
+      "auc_roc": 0.9246845630777129
+    }
+  }
+}
