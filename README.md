@@ -403,4 +403,4 @@ python 5_train_edge_predictor_ultra_stable.py
 
 **详细架构**: 参见 [PROJECT_ARCHITECTURE.md](PROJECT_ARCHITECTURE.md)
 
-**状态**: ✅ 生产就绪 | **版本**: v1.0.0 | **更新**: 2024-10-22
+**状态**: ✅ 就绪 | **版本**: v1.0.0 | **更新**: 2025-10-22
